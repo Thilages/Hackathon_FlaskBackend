@@ -101,7 +101,7 @@ problems = {
     }
 }
 
-cred_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+cred_path = "etc/secrets/firebase_credentials.json"
 
 cred = credentials.Certificate(cred_path)  # Replace with your Firebase Admin SDK key
 initialize_app(cred)
