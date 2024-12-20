@@ -101,7 +101,7 @@ problems = {
     }
 }
 
-cred_path = "etc/secrets/firebase_credentials.json"
+cred_path = "./no.json"
 
 cred = credentials.Certificate(cred_path)  # Replace with your Firebase Admin SDK key
 initialize_app(cred)
